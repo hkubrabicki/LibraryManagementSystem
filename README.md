@@ -5,24 +5,19 @@ Bu proje, temel nesne yönelimli programlama (OOP) prensiplerini kullanarak geli
 
 ## 🚀 Fonksiyonel Özellikler
 
-* 
-**Kitap Yönetimi:** Sisteme yeni kitap tanımlama ve mevcut kitapların stok durumunu (kopya sayısı) dinamik olarak güncelleme.
+* **Kitap Yönetimi:** Sisteme yeni kitap tanımlama ve mevcut kitapların stok durumunu (kopya sayısı) dinamik olarak güncelleme.
 
 
-* 
-**Kullanıcı Kayıt Sistemi:** E-posta adresi üzerinden benzersiz kullanıcı tanımlama ve kayıt kontrolü.
+* **Kullanıcı Kayıt Sistemi:** E-posta adresi üzerinden benzersiz kullanıcı tanımlama ve kayıt kontrolü.
 
 
-* 
-**Ödünç Alma Mantığı:** Kullanıcıların mevcut stoklar dahilinde kitap ödünç alabilmesi; her kullanıcı için eşzamanlı maksimum 3 kitap limiti.
+* **Ödünç Alma Mantığı:** Kullanıcıların mevcut stoklar dahilinde kitap ödünç alabilmesi; her kullanıcı için eşzamanlı maksimum 3 kitap limiti.
 
 
-* 
-**İade Süreçleri:** Ödünç alınan kitapların iade edilmesiyle stokların otomatik senkronize edilmesi.
+* **İade Süreçleri:** Ödünç alınan kitapların iade edilmesiyle stokların otomatik senkronize edilmesi.
 
 
-* 
-**İşlem Geçmişi (Logs):** Yapılan her işlemin türü (Ödünç/İade), kullanıcı bilgisi, kitap detayı ve tarih bazlı olarak kayıt altına alınması.
+* **İşlem Geçmişi (Logs):** Yapılan her işlemin türü (Ödünç/İade), kullanıcı bilgisi, kitap detayı ve tarih bazlı olarak kayıt altına alınması.
 
 
 
@@ -30,24 +25,19 @@ Bu proje, temel nesne yönelimli programlama (OOP) prensiplerini kullanarak geli
 
 Proje, modüler bir yapı üzerine inşa edilmiş olup aşağıdaki sınıflardan oluşur:
 
-* 
-**`Book`:** Kitap meta verilerini ve stok durumunu (toplam/mevcut kopya) kapsüller.
+* **`Book`:** Kitap meta verilerini ve stok durumunu (toplam/mevcut kopya) kapsüller.
 
 
-* 
-**`User`:** Kullanıcı profili oluşturur ve kullanıcıya zimmetli kitapların takibini yapar.
+* **`User`:** Kullanıcı profili oluşturur ve kullanıcıya zimmetli kitapların takibini yapar.
 
 
-* 
-**`Library`:** Sistemin merkezi yönetim sınıfıdır; kitap, kullanıcı ve tüm işlem verilerini koordineli şekilde yönetir.
+* **`Library`:** Sistemin merkezi yönetim sınıfıdır; kitap, kullanıcı ve tüm işlem verilerini koordineli şekilde yönetir.
 
 
-* 
-**`Transaction`:** Sistemdeki her bir hareketin (transaction) detaylı kaydını tutar.
+* **`Transaction`:** Sistemdeki her bir hareketin (transaction) detaylı kaydını tutar.
 
 
-* 
-**`Main`:** Kullanıcı etkileşimini sağlayan konsol tabanlı arayüzü ve uygulama döngüsünü yönetir.
+* **`Main`:** Kullanıcı etkileşimini sağlayan konsol tabanlı arayüzü ve uygulama döngüsünü yönetir.
 
 
 
@@ -57,13 +47,9 @@ Projenin nesne ilişkileri ve sistem mimarisi, **UML Class Diagram** standartlar
 
 ## 💻 Kullanılan Teknolojiler
 
-* 
-**Programlama Dili:** Java 
-
-
+* **Programlama Dili:** Java 
 * **Geliştirme Yaklaşımı:** Nesne Yönelimli Programlama (OOP)
-* 
-**Veri Depolama:** Bellek içi (In-memory) dizi yapıları 
+* **Veri Depolama:** Bellek içi (In-memory) dizi yapıları 
 
 
 
