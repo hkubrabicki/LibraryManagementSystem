@@ -3,7 +3,7 @@
 
 Bu proje, temel nesne yönelimli programlama (OOP) prensiplerini kullanarak geliştirilmiş, geniş kapsamlı bir kütüphane yönetim simülasyonudur. Sistem; kitap envanteri, kullanıcı yetkilendirmeleri ve ödünç alma/iade etme süreçlerini uçtan uca yönetmektedir.
 
-## 🚀 Fonksiyonel Özellikler
+##  Fonksiyonel Özellikler
 
 * **Kitap Yönetimi:** Sisteme yeni kitap tanımlama ve mevcut kitapların stok durumunu (kopya sayısı) dinamik olarak güncelleme.
 
@@ -21,7 +21,7 @@ Bu proje, temel nesne yönelimli programlama (OOP) prensiplerini kullanarak geli
 
 
 
-## 🛠 Teknik Mimari ve Sınıf Yapısı
+##  Teknik Mimari ve Sınıf Yapısı
 
 Proje, modüler bir yapı üzerine inşa edilmiş olup aşağıdaki sınıflardan oluşur:
 
@@ -41,11 +41,11 @@ Proje, modüler bir yapı üzerine inşa edilmiş olup aşağıdaki sınıflarda
 
 
 
-## 📊 Modelleme
+##  Modelleme
 
 Projenin nesne ilişkileri ve sistem mimarisi, **UML Class Diagram** standartlarına uygun olarak tasarlanmış ve modellenmiştir. Bu diyagram, sınıflar arasındaki ilişkilerin (association, dependency vb.) teknik dökümantasyonunu sağlar.
 
-## 💻 Kullanılan Teknolojiler
+##  Kullanılan Teknolojiler
 
 * **Programlama Dili:** Java 
 * **Geliştirme Yaklaşımı:** Nesne Yönelimli Programlama (OOP)
